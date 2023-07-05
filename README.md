@@ -73,7 +73,7 @@ Tip on "generate a new client secret"
 
    ```python
    client_id = "YOUR_CLIENT_ID"
-   client_secret = "YOUR_CLIENT_SECRET"
+   client_secret = "YOUR_CLIENT_SECRET"```
    
 
 Feel free to adjust the content as needed. Make sure to replace `"YOUR_CLIENT_ID"` and `"YOUR_CLIENT_SECRET"` with your actual GitHub OAuth application credentials.
