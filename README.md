@@ -57,8 +57,19 @@ To automatically install all the required Python dependencies for this Flask app
 
 
 ## Running the Application
+### How to generate an oAuth Application with Github
+- Visit url.schächner.de/l3m
+- click on "New oAuth App"
+- set authorized callback url to http://127.0.0.1:5000/callback
+- set homepage url to http://127.0.0.1:5000/
 
-1. Set the GitHub OAuth application credentials in the code:
+  
+![image](https://github.com/SchBenedikt/oAuth-with-Github-Python/assets/137323528/1120e932-daf1-436d-b13e-da10cfb359ad)
+
+### How to generate client secret
+Tip on "generate a new client secret"
+
+### Set the GitHub OAuth application credentials in the code:
 
    ```python
    client_id = "YOUR_CLIENT_ID"
