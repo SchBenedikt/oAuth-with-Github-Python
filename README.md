@@ -1,4 +1,4 @@
-# Flask GitHub Login and Project Viewer
+# Flask GitHub Login
 
 This is a Flask web application that allows users to log in with their GitHub account and view their GitHub projects. It utilizes OAuth authentication with GitHub and retrieves the user's projects using the GitHub API.
 ## Images
