@@ -17,8 +17,8 @@ app.secret_key = "some_random_string"  # Replace with your secret key
 oauth = OAuth(app)
 github = oauth.register(
     name="github",
-    client_id="217973d6a6bd9d3defb9",
-    client_secret="861b796155a2e5a53ab17e68890e70bbeebadae6",
+    client_id="CLIENT_ID",
+    client_secret="CLIENT_SECRET",
     access_token_url="https://github.com/login/oauth/access_token",
     access_token_params=None,
     authorize_url="https://github.com/login/oauth/authorize",
@@ -61,8 +61,8 @@ def callback():
 
 def get_access_token(code):
     payload = {
-        "client_id": "217973d6a6bd9d3defb9",
-        "client_secret": "861b796155a2e5a53ab17e68890e70bbeebadae6",
+        "client_id": "CLIENT_ID",
+        "client_secret": "CLIENT_SECRET",
         "code": code,
     }
     headers = {
